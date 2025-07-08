@@ -1,0 +1,10 @@
+-Các bài không làm xong:
+Dò mìn - 7.advance
+
+Bài này lớp mình không ai làm ra được, nên coi như mình bỏ nhé! Tuy nhiên, mình đã có đăng đề bài lên, nếu bạn làm được, hãy thoải mái nhắn tin với mình nhé, phần liên lạc mình để ở file Readme.md nhe
+
+-------
+Unfinished assignments:
+Mine Sweeper - 7.advance
+
+My class couldn't solve this assignment, so I consider it abandoned! However, I've posted the problem statement, so if you manage to solve it, feel free to message me. You can find my contact information in the Readme.md file.

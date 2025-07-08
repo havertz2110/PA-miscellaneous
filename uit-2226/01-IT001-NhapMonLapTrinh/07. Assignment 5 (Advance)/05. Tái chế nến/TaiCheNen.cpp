@@ -1,0 +1,1 @@
+return (candles + (candles - 1) / (makeNew - 1));

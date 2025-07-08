@@ -1,0 +1,42 @@
+
+
+md5
+k = tamanhdeptraiso1
+m = muonquayve2020
+
+h1 = md5
+h1(tamanhdeptraiso1muonquayve2020)
+
+s1 = 0f941b096787ab332d473f3bb5035399 ( md5 hash of tamanhdeptraiso1muonquayve2020 )
+
+padding = uoc gi duoc chin diem mmh
+
+./hashpump -s '0f941b096787ab332d473f3bb5035399' -d 'muonquayve2020' -a 'uoc gi duoc chin diem mmh' -k 16
+
+--> mask: ffffffff
+predicted sig: c249f6a8c3e892ef5ff8c9fce6ec9cf4                               |
+muonquayve2020\x80\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xf0\x00\x00\x00\x00\x00\x00\x00uoc gi duoc chin diem mmh
+
+
+
+sha1 
+./hashpump -s 'acd1f7d570f11ed1b549e41f00f1e010ecdc6d84' -d 'muonquayve2020' -a 'uoc gi duoc chin diem mmh' -k 16
+
+--> mask: ffffffff
+predicted sig: b901f5b195f38dc0784e0419085dcfc145b2a639                       |
+muonquayve2020\x80\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xf0uoc gi duoc chin diem mmh
+
+
+sha256
+./hashpump -s 'd423d2ffd33f9bbacb05df4e5baeffc6f63c1b76df5c5116d59a8ab69a845220' -d 'muonquayve2020' -a 'uoc gi duoc chin diem mmh' -k 16
+
+--> mask: ffffffff
+predicted sig: fb71fed6a85b63505a6ed6ecd525993173408e761875a1c294535a08de9fd930
+muonquayve2020\x80\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xf0uoc gi duoc chin diem mmh
+
+sha512
+./hashpump -s 'da969b7daecf83eef4bd8eaee30f4bd75e5aa6fca08e633f87b1333c2432dc56ad7cadb98c0f53c812f8fb2c451546941bb3bbbbf79bd95399047a2aa9fdf33e' -d 'muonquayve2020' -a 'uoc gi duoc chin diem mmh' -k 16
+
+--> mask: ffffffff
+predicted sig: 91fdb2be189c90ed7ed2da5e632ddda8362d4b3579fe64881abaa578cb6af938ed22272a545e291d944edded53e6656028331826ed95caf7df71469c273f6b6f
+muonquayve2020\x80\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xf0uoc gi duoc chin diem mmh
